@@ -4,8 +4,7 @@ import { CritiqueService } from '../services/critique.service';
 
 @Component({
   selector: 'app-critique',
-  templateUrl: './critique.component.html',
-  styleUrls: ['./critique.component.css']
+  templateUrl: './critique.component.html'
 })
 export class CritiqueComponent implements OnInit {
 

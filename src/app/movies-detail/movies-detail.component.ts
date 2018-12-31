@@ -8,7 +8,6 @@ import { ActivatedRoute } from '@angular/router';
 @Component({
   selector: 'app-movies-detail',
   templateUrl: './movies-detail.component.html',
-  styleUrls: ['./movies-detail.component.css']
 })
 export class MoviesDetailComponent implements OnInit {
 
