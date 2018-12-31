@@ -1,0 +1,34 @@
+<div class="container">
+
+  <h1>{{title}}</h1>
+  <h2>{{subtitle}}</h2>
+<br />
+  <div id='div-cinema' style="margin-left:auto; margin-right:auto; "> <img id='img-cinema' src="../assets/cinema.jpg"
+    alt="Cinema" style="center">
+  </div>
+  
+  <br/>
+    <div>
+      <ul class="navbar nav justify-content-center">    
+        <li class="nav-item">
+          <a class="nav-link active" routerLink="/">Accueil <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" routerLink="/movie">Film</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/genre">Genre</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" routerLink="/contact">Contact</a>
+          </li>
+      </ul>
+    </div>
+    <br/>
+  
+  
+  <router-outlet></router-outlet>
+
+
+
+</div>

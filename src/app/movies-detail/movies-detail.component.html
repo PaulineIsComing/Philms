@@ -1,0 +1,21 @@
+<h3>
+ Fiche du film : <b>{{movie.title}}</b>
+
+</h3>
+
+<div class="row">
+    <div id="div-movie" class="col col-12 col-md-6 col-lg-4">
+          <img id="img-movie" src="https://image.tmdb.org/t/p/original{{movie.poster_path}}">
+    </div>
+    <div class="col col-12 col-md-6 col-lg-8">
+        Titre original : {{movie.original_title}}<br/>
+        Date de sortie initiale : {{movie.release_date}} <br/>
+        Durée : {{movie.runtime}} minutes<br/><br/>
+
+        Avis global : {{movie.vote_average}}<br/><br/>
+
+        Synopsis : <br/> {{movie.overview}} <br/>
+
+    </div>
+</div>
+

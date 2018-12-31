@@ -1,0 +1,15 @@
+
+<div class="alert alert-info">
+  Bienvenue sur le site Philms, qui comme le nom l'indique, est un site pour ceux qui aiment les films
+  (du grec ancien φίλος, phílos,« personne qui aime »).
+  <br/> <br/>
+  Le site est consacré uniquement aux films de 1998. 
+  Vous pouvez accéder à une sélection de films en fonction d'un genre particulier ou directement visualiser les 20 films les plus populaires de cette année là.
+</div>
+<button (click)="showMessage()" class="btn btn-warning" *ngIf="!isMessageVisible">Info sur l'API utilisée</button>
+
+<div class="alert alert-warning" *ngIf="isMessageVisible">
+  L'API utilisée est "<a href="https://www.themoviedb.org">The Movie Database (TMDb)</a>", c'est une base de donnée communautaire recensant des films, des séries et des artistes.
+  <br/>
+  <button class="btn btn-warning" (click)="isMessageVisible = false">Cacher les détails</button>
+</div>

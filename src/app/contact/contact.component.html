@@ -1,0 +1,6 @@
+<h3>Veuillez nous contacter en remplissant les champs ci-dessous.</h3>
+<form (submit)="sendMessage()">
+  <input class="form-control" name="email" type="email" [(ngModel)]="email" required>
+  <textarea class="form-control" name="message" [(ngModel)]="message" required></textarea>
+  <button type="submit" class="btn btn-primary">Send message</button>
+</form>
