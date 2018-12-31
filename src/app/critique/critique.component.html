@@ -1,0 +1,23 @@
+<h3>Votre avis ?</h3>
+<div class="alert alert-info"> Vous pouvez poster votre avis sur un film en particulier ou tout autre avis lié au cinéma.
+</div>
+<form (submit)="addCritique()">
+    Pseudo :
+  <input class="form-control" type="text" name = "pseudo" [(ngModel)]="this.pseudo" required>
+    Titre :
+  <input class="form-control" type="text" name = "title" [(ngModel)]="this.title" required>
+    Contenu :
+  <textarea class="form-control" type="text" name = "body" [(ngModel)]="this.body" required></textarea>
+  <button type="submit" class="btn btn-primary">Poster la critique</button>
+</form>
+
+<div class="row">
+    <div *ngFor="let element of critiquesList">
+        <br/>
+        --- {{element.pseudo}} a posté {{element.title}} --- <br/><br/>
+        {{element.body}}
+        <br/>
+    </div>
+
+
+</div>

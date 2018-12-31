@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {MovieById} from '../models/movieById.model';
+//import {MovieComponent} from './movie/movie.component';
 import {HttpClient} from '@angular/common/http';
 import { ActivatedRoute } from '@angular/router';
 

@@ -23,7 +23,8 @@ export class GenresDetailComponent implements OnInit {
   
   }
 
-  //récupère la valeur de l'id passée en argument dans l'URL et charge les 20 films ayant pour genre le genre correpondant à cet id.
+  //récupère la valeur de l'id passée en argument dans l'URL et
+  //charge les 20 films ayant pour genre le genre correpondant à cet id.
   ngOnInit() {
     this.sub = this.route.params.subscribe(params => {
        this.id = +params['id']; // (+) converts string 'id' to a number
