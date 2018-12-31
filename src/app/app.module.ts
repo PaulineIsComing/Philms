@@ -11,7 +11,6 @@ import { MovieComponent } from './movie/movie.component';
 import { ContactComponent } from './contact/contact.component';
 import { MoviesDetailComponent } from './movies-detail/movies-detail.component';
 import { GenresDetailComponent } from './genres-detail/genres-detail.component';
-import { MessageComponent } from './message/message.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +22,6 @@ import { MessageComponent } from './message/message.component';
     ContactComponent,
     MoviesDetailComponent,
     GenresDetailComponent,
-    MessageComponent,
   ],
   imports: [
     BrowserModule,
