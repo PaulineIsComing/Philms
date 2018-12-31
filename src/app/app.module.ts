@@ -8,11 +8,10 @@ import {FormsModule} from '@angular/forms';
 import { HomeComponent } from './home/home.component';
 import { GenreComponent } from './genre/genre.component';
 import { MovieComponent } from './movie/movie.component';
+import { ContactComponent } from './contact/contact.component';
 import { MoviesDetailComponent } from './movies-detail/movies-detail.component';
 import { GenresDetailComponent } from './genres-detail/genres-detail.component';
-import { CritiqueComponent } from './critique/critique.component';
-
-import { CritiqueService } from './services/critique.service';
+import { MessageComponent } from './message/message.component';
 
 @NgModule({
   declarations: [
@@ -21,9 +20,10 @@ import { CritiqueService } from './services/critique.service';
     GenreComponent,
     HomeComponent,
     MovieComponent,
+    ContactComponent,
     MoviesDetailComponent,
     GenresDetailComponent,
-    CritiqueComponent,
+    MessageComponent,
   ],
   imports: [
     BrowserModule,
@@ -31,7 +31,7 @@ import { CritiqueService } from './services/critique.service';
     HttpClientModule,
     FormsModule
   ],
-  providers: [CritiqueService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
