@@ -18,7 +18,7 @@ export class CritiqueService {
     this.critiquesList = [
       {
         pseudo: "JCV",
-        title: "Grand d'écart POWER",
+        title: "Grand écart POWER",
         body: "Jean Claude Van Johnson m'a surpris ! Je ne pensais pas qu'il ferait encore plus fort que la fois avec les deux camions...",
       }
     ]
